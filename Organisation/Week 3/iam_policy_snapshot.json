@@ -1,0 +1,43 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "serviceAccount:database-sa@shopnimbus-security-group7.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudkms.cryptoKeyEncrypterDecrypter"
+    },
+    {
+      "members": [
+        "serviceAccount:app-sa@shopnimbus-security-group7.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudsql.client"
+    },
+    {
+      "members": [
+        "serviceAccount:web-sa@shopnimbus-security-group7.iam.gserviceaccount.com"
+      ],
+      "role": "roles/compute.viewer"
+    },
+    {
+      "members": [
+        "user:aiyeoluwa@gmail.com",
+        "user:amaraachidinma@gmail.com",
+        "user:fadav4real@gmail.com",
+        "user:gbokoyiayomide17@gmail.com",
+        "user:ifeoluwaakinwa04@gmail.com",
+        "user:mustafaumar2002@gmail.com",
+        "user:olandrew93@gmail.com"
+      ],
+      "role": "roles/editor"
+    },
+    {
+      "members": [
+        "user:adejumobiaishat2005@gmail.com",
+        "user:johnfulfilment99@gmail.com"
+      ],
+      "role": "roles/owner"
+    }
+  ],
+  "etag": "BwZA0G5_HBc=",
+  "version": 1
+}
