@@ -1,0 +1,10 @@
+cd Organisation
+
+mkdir src
+
+echo "# Source folder" > src/README.md
+
+git add src
+git commit -m "Add src folder"
+
+git push origin main
